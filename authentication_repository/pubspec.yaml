@@ -1,0 +1,23 @@
+name: authentication_repository
+description: Dart package which manages the authentication system.
+version: 0.0.1
+author: Pratyush Harsh
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  equatable: ^1.2.3
+  firebase_auth: ^0.18.1+2
+  firebase_core: ^0.5.0+1
+  google_sign_in: ^4.5.4
+  flutter_facebook_login: ^3.0.0
+  meta: ^1.1.8
+  firebase: ^7.3.2
+  firebase_auth_web: ^0.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
