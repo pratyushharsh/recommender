@@ -17,6 +17,15 @@ class Api {
     return movies;
   }
 
+  Future<List<Movie>> getRecommendedMovie(String userId) async {
+    var movies = List<Movie>();
+    var response = await _helper.get("/pylayer-test?userid=${userId}");
+    for (var m in response) {
+      movies.add(Movie.fromJson(m));
+    }
+    return movies;
+  }
+
   Future<List<MyRating>> getRatedMovies(String userId) async {
     var movies = List<MyRating>();
     var response = await _helper.get("/$userId") as List<dynamic>;

@@ -30,6 +30,8 @@ class LoginForm extends StatelessWidget {
                 //   'assets/bloc_logo_small.png',
                 //   height: 120,
                 // ),
+                Text("Movie Recommender System", style: TextStyle(fontSize: 50, fontWeight: FontWeight.bold),),
+                // Text("Using Genetic Algorithm", style: TextStyle(fontSize: 20, fontWeight: FontWeight.normal, fontStyle: FontStyle.italic),),
                 const SizedBox(height: 16.0),
                 _EmailInput(),
                 const SizedBox(height: 8.0),

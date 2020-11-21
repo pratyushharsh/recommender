@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:recommender/authentication/authentication.dart';
+import 'package:recommender/home/movie/movie_bloc.dart';
 import 'package:recommender/home/rating/rating_bloc.dart';
 import 'package:recommender/home/recommended/recommendation_bloc.dart';
 import 'package:recommender/home/widgets/my_ratings_card.dart';
@@ -20,22 +21,26 @@ class HomePage extends StatelessWidget {
       providers: [
         BlocProvider<RecommendationBloc>(
             create: (context) => RecommendationBloc(api: RepositoryProvider.of(context))
-              ..add(GetRecommendation())
+              ..add(GetRecommendation(BlocProvider.of<AuthenticationBloc>(context).state.user.id))
         ),
         BlocProvider<RatingBloc>(
             create: (context) => RatingBloc(api: RepositoryProvider.of(context), user: BlocProvider.of<AuthenticationBloc>(context).state.user)
                 ..add(GetAllRatedMovie(BlocProvider.of<AuthenticationBloc>(context).state.user.id))
+        ),
+        BlocProvider<MovieBloc>(
+            create: (context) => MovieBloc(api: RepositoryProvider.of(context))
+                ..add(GetAllMovie())
         )
       ],
       child: Scaffold(
         appBar: AppBar(
           title: Text("Movie Recommendation System"),
           actions: [
-            CircleAvatar(
-              child: Text("H"),
-            ),
+            // CircleAvatar(
+            //   child: Text("H"),
+            // ),
             IconButton(
-              padding: EdgeInsets.all(8),
+              padding: EdgeInsets.only(right: 50, top: 20, bottom: 20),
               onPressed: () {
                 BlocProvider.of<AuthenticationBloc>(context).add(AuthenticationLogoutRequested());
               },
@@ -47,11 +52,21 @@ class HomePage extends StatelessWidget {
           child: Container(
             margin: EdgeInsets.symmetric(horizontal: 20),
             child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text("Recommended Movie"),
+                SizedBox(height: 10,),
+                Text("Recommended Movie", style: TextStyle(fontSize: 36, fontWeight: FontWeight.bold),),
+                SizedBox(height: 3,),
                 RecommendedMovie(),
-                Text("Rated Movie"),
-                MyRatedMovie()
+                SizedBox(height: 20,),
+                Text("Rated Movie", style: TextStyle(fontSize: 36, fontWeight: FontWeight.bold),),
+                SizedBox(height: 3,),
+                MyRatedMovie(),
+                SizedBox(height: 20,),
+                Text("All Movies", style: TextStyle(fontSize: 36, fontWeight: FontWeight.bold),),
+                SizedBox(height: 3,),
+                AllMovie(),
+                SizedBox(height: 20,),
               ],
             ),
           ),
@@ -60,6 +75,35 @@ class HomePage extends StatelessWidget {
     );
   }
 }
+
+class AllMovie extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return BlocBuilder<MovieBloc, MovieState>(
+        builder: (context, state) {
+          if (state is SuccessMovieState) {
+            return Container(
+              height: 350,
+              child: ListView.builder(
+                itemCount: state.movies.length,
+                scrollDirection: Axis.horizontal,
+                itemBuilder: (ctx, idx) {
+                  return MovieCard(movie: state.movies[idx],);
+                },
+              ),
+            );
+          } else if (state is LoadingMovieState) {
+            return CircularProgressIndicator();
+          } else {
+            return Container(
+              child: Text("Failed"),
+            );
+          }
+        }
+    );
+  }
+}
+
 
 class RecommendedMovie extends StatelessWidget {
   @override

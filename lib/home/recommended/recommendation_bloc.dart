@@ -22,14 +22,14 @@ class RecommendationBloc extends Bloc<RecommendationEvent, RecommendationState> 
   ) async* {
     // TODO: implement mapEventToState
     if (event is GetRecommendation) {
-      yield* _mapRecommendation();
+      yield* _mapRecommendation(event);
     }
   }
 
-  Stream<RecommendationState> _mapRecommendation() async* {
+  Stream<RecommendationState> _mapRecommendation(GetRecommendation event) async* {
     try {
       yield LoadingRecommendationState();
-      List<Movie> movie = await _api.getAllMovies() as List;
+      List<Movie> movie = await _api.getRecommendedMovie(event.userId);
       yield SuccessRecommendationState(movie);
     } catch (e) {
       yield FailureRecommendationState();
