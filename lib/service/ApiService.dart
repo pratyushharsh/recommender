@@ -5,7 +5,7 @@ import 'package:http/http.dart' as http;
 import 'appexception.dart';
 
 class ApiService {
-  static final String BASE_URL = 'https://ga9uj8f89i.execute-api.ap-south-1.amazonaws.com/Prod';
+  static final String BASE_URL = 'Enter Your Url Here';
 
   Future<dynamic> get(String url) async {
     var responseJson;
