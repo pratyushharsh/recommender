@@ -1,0 +1,506 @@
+{
+    "Items": [
+        {
+            "MovieId": "36",
+            "posterurl": "https://upload.wikimedia.org/wikipedia/en/2/2e/Barfi%21_poster.jpg",
+            "averageRating": 0,
+            "releaseDate": "2012-09-14",
+            "year": "2012",
+            "imdbRating": "7.5",
+            "duration": "PT157M",
+            "title": "Barfi"
+        },
+        {
+            "MovieId": "49",
+            "posterurl": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/AnjaanaAnjaani.jpg/330px-AnjaanaAnjaani.jpg",
+            "averageRating": 0,
+            "releaseDate": "2010-10-01",
+            "year": "2010",
+            "imdbRating": "7.5",
+            "duration": "PT157M",
+            "title": "Anjaana Anjaani"
+        },
+        {
+            "MovieId": "33",
+            "posterurl": "https://upload.wikimedia.org/wikipedia/en/f/f9/Jab_Tak_Hai_Jaan_Poster.jpg",
+            "averageRating": 0,
+            "releaseDate": "2012-11-12",
+            "year": "2012",
+            "imdbRating": "8",
+            "duration": "PT157M",
+            "title": "Jab Tak Hai Jaan"
+        },
+        {
+            "MovieId": "22",
+            "posterurl": "https://upload.wikimedia.org/wikipedia/en/b/b6/Kick_%282014_film%29_Official_release_poster.jpg",
+            "averageRating": 0,
+            "releaseDate": "2014-07-25",
+            "year": "2014",
+            "imdbRating": "6.5",
+            "duration": "PT157M",
+            "title": "Kick"
+        },
+        {
+            "MovieId": "18",
+            "posterurl": "https://upload.wikimedia.org/wikipedia/en/9/97/Fan_SRK_poster.jpg",
+            "averageRating": 0,
+            "releaseDate": "2016-04-15",
+            "year": "2016",
+            "imdbRating": "6.5",
+            "duration": "PT157M",
+            "title": "Fan"
+        },
+        {
+            "MovieId": "50",
+            "posterurl": "https://upload.wikimedia.org/wikipedia/en/d/df/3_idiots_poster.jpg",
+            "averageRating": 0,
+            "releaseDate": "2009-12-25",
+            "year": "2009",
+            "imdbRating": "9",
+            "duration": "PT157M",
+            "title": "3 Idiots"
+        },
+        {
+            "MovieId": "16",
+            "posterurl": "https://upload.wikimedia.org/wikipedia/en/9/96/Akshay_Kumar%27s-Rustom_poster.jpg",
+            "averageRating": 0,
+            "releaseDate": "2016-01-22",
+            "year": "2016",
+            "imdbRating": "8",
+            "duration": "PT157M",
+            "title": "Airlift"
+        },
+        {
+            "MovieId": "40",
+            "posterurl": "https://upload.wikimedia.org/wikipedia/en/7/73/Dabangg_poster.jpg",
+            "averageRating": 0,
+            "releaseDate": "2010-09-10",
+            "year": "2010",
+            "imdbRating": "8",
+            "duration": "PT157M",
+            "title": "Dabangg"
+        },
+        {
+            "MovieId": "2",
+            "posterurl": "https://static.toiimg.com/photo/msid-45975372/45975372.jpg?78415",
+            "averageRating": 0,
+            "releaseDate": "2015-01-23",
+            "year": "2015",
+            "imdbRating": "8",
+            "duration": "PT157M",
+            "title": "Baby"
+        },
+        {
+            "MovieId": "13",
+            "posterurl": "https://upload.wikimedia.org/wikipedia/en/e/ec/Ae_Dil_Hai_Mushkil.jpg",
+            "averageRating": 0,
+            "releaseDate": "2016-10-28",
+            "year": "2016",
+            "imdbRating": "8.5",
+            "duration": "PT157M",
+            "title": "Ae Dil Hai Mushkil"
+        },
+        {
+            "MovieId": "8",
+            "posterurl": "https://upload.wikimedia.org/wikipedia/en/3/3b/URI_-_New_poster.jpg",
+            "averageRating": 0,
+            "releaseDate": "2019-01-11",
+            "year": "2019",
+            "imdbRating": "9",
+            "duration": "PT157M",
+            "title": "Uri:The Surgical Strike"
+        },
+        {
+            "MovieId": "48",
+            "posterurl": "https://upload.wikimedia.org/wikipedia/en/9/96/I_Hate_Luv_Storys.jpg",
+            "averageRating": 0,
+            "releaseDate": "2010-07-02",
+            "year": "2010",
+            "imdbRating": "6.5",
+            "duration": "PT157M",
+            "title": "I Hate Luv Story"
+        },
+        {
+            "MovieId": "9",
+            "posterurl": "https://upload.wikimedia.org/wikipedia/en/7/76/Good_Newwz_film_poster.jpg",
+            "averageRating": 0,
+            "releaseDate": "2019-12-27",
+            "year": "2019",
+            "imdbRating": "8.5",
+            "duration": "PT157M",
+            "title": "Good Newwz"
+        },
+        {
+            "MovieId": "1",
+            "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjI1NTk0NTc1OV5BMl5BanBnXkFtZTgwNTMwMTE4NDM@._V1_SY500_CR0,0,281,500_AL_.jpg",
+            "averageRating": 0,
+            "releaseDate": "2018-02-16",
+            "year": "2018",
+            "imdbRating": "7",
+            "duration": "PT157M",
+            "title": "Aiyaary"
+        },
+        {
+            "MovieId": "31",
+            "posterurl": "https://upload.wikimedia.org/wikipedia/en/2/2d/Ek_Tha_Tiger_theatrical_poster.jpg",
+            "averageRating": 0,
+            "releaseDate": "2012-12-22",
+            "year": "2012",
+            "imdbRating": "8",
+            "duration": "PT157M",
+            "title": "Ek Tha Tiger"
+        },
+        {
+            "MovieId": "6",
+            "posterurl": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS-bmpRnWM68JKlVga0AO0KOkBTl56_TW1v77enNdP7LOS2NZ6v",
+            "averageRating": 0,
+            "releaseDate": "2019-11-24",
+            "year": "2019",
+            "imdbRating": "6.5",
+            "duration": "PT157M",
+            "title": "Saaho"
+        },
+        {
+            "MovieId": "38",
+            "posterurl": "https://upload.wikimedia.org/wikipedia/en/0/0c/Bol_Bachchan.jpg",
+            "averageRating": 0,
+            "releaseDate": "2012-07-06",
+            "year": "2012",
+            "imdbRating": "7.5",
+            "duration": "PT157M",
+            "title": "Bol Bachchan"
+        },
+        {
+            "MovieId": "28",
+            "posterurl": "https://upload.wikimedia.org/wikipedia/en/0/0f/Ek_Villain_Poster.jpg",
+            "averageRating": 0,
+            "releaseDate": "2014-06-27",
+            "year": "2014",
+            "imdbRating": "7.5",
+            "duration": "PT157M",
+            "title": "Ek Villian"
+        },
+        {
+            "MovieId": "30",
+            "posterurl": "https://upload.wikimedia.org/wikipedia/en/8/83/Singham_Returns_Poster.jpg",
+            "averageRating": 0,
+            "releaseDate": "2014-12-28",
+            "year": "2014",
+            "imdbRating": "8.5",
+            "duration": "PT157M",
+            "title": "Singham Returns"
+        },
+        {
+            "MovieId": "35",
+            "posterurl": "https://upload.wikimedia.org/wikipedia/en/3/3e/Rowdy_Rathore.jpg",
+            "averageRating": 0,
+            "releaseDate": "2012-06-01",
+            "year": "2012",
+            "imdbRating": "8.5",
+            "duration": "PT157M",
+            "title": "Rowdy Rathore"
+        },
+        {
+            "MovieId": "24",
+            "posterurl": "https://upload.wikimedia.org/wikipedia/en/9/90/Bang_Bang_%282014_Film%29.jpg",
+            "averageRating": 0,
+            "releaseDate": "2014-10-02",
+            "year": "2014",
+            "imdbRating": "7.5",
+            "duration": "PT157M",
+            "title": "Bang Bang"
+        },
+        {
+            "MovieId": "27",
+            "posterurl": "https://upload.wikimedia.org/wikipedia/en/1/12/2_States_poster.jpg",
+            "averageRating": 0,
+            "releaseDate": "2014-04-18",
+            "year": "2014",
+            "imdbRating": "7",
+            "duration": "PT157M",
+            "title": "2 States"
+        },
+        {
+            "MovieId": "5",
+            "posterurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReP8p-XnijdmOfg77fBYECflwAOQ9vIzllHOtikZM-kGvjNpOR",
+            "averageRating": 0,
+            "releaseDate": "2019-10-02",
+            "year": "2019",
+            "imdbRating": "6.5",
+            "duration": "PT157M",
+            "title": "War"
+        },
+        {
+            "MovieId": "4",
+            "posterurl": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQAqQuZFZxyiKTl7_Hz0QOcJ5RP3n5Uy1cSV521LsnOVwmfGQfd",
+            "averageRating": 0,
+            "releaseDate": "2016-12-21",
+            "year": "2016",
+            "imdbRating": "8.4",
+            "duration": "PT157M",
+            "title": "Dangal"
+        },
+        {
+            "MovieId": "44",
+            "posterurl": "https://upload.wikimedia.org/wikipedia/en/3/32/Housefull_Poster.jpg",
+            "averageRating": 0,
+            "releaseDate": "2010-04-30",
+            "year": "2010",
+            "imdbRating": "8.5",
+            "duration": "PT157M",
+            "title": "Housefull"
+        },
+        {
+            "MovieId": "32",
+            "posterurl": "https://upload.wikimedia.org/wikipedia/en/9/93/DABANGG_2_Poster.jpg",
+            "averageRating": 0,
+            "releaseDate": "2012-12-21",
+            "year": "2012",
+            "imdbRating": "7",
+            "duration": "PT157M",
+            "title": "Dabangg 2"
+        },
+        {
+            "MovieId": "41",
+            "posterurl": "https://upload.wikimedia.org/wikipedia/en/f/f4/Golmaal_3.jpg",
+            "averageRating": 0,
+            "releaseDate": "2010-11-05",
+            "year": "2010",
+            "imdbRating": "8.5",
+            "duration": "PT157M",
+            "title": "Golmaal 3"
+        },
+        {
+            "MovieId": "34",
+            "posterurl": "https://upload.wikimedia.org/wikipedia/en/0/08/Agneepath_poster.jpg",
+            "averageRating": 0,
+            "releaseDate": "2012-01-26",
+            "year": "2012",
+            "imdbRating": "8",
+            "duration": "PT157M",
+            "title": "Agneepath"
+        },
+        {
+            "MovieId": "23",
+            "posterurl": "https://upload.wikimedia.org/wikipedia/en/f/f0/Happy_New_Year_Poster_%282014_film%29.jpg",
+            "averageRating": 0,
+            "releaseDate": "2014-10-24",
+            "year": "2014",
+            "imdbRating": "8",
+            "duration": "PT157M",
+            "title": "Happy New Year"
+        },
+        {
+            "MovieId": "46",
+            "posterurl": "https://upload.wikimedia.org/wikipedia/en/b/ba/Once_Upon_a_Time_in_Mumbaai.jpg",
+            "averageRating": 0,
+            "releaseDate": "2010-07-30",
+            "year": "2010",
+            "imdbRating": "7.5",
+            "duration": "PT157M",
+            "title": "Once Upon a Time in Mumbaai"
+        },
+        {
+            "MovieId": "19",
+            "posterurl": "https://upload.wikimedia.org/wikipedia/en/1/1f/Sultan_film_poster.jpg",
+            "averageRating": 0,
+            "releaseDate": "2016-07-06",
+            "year": "2016",
+            "imdbRating": "8.5",
+            "duration": "PT157M",
+            "title": "Sultan"
+        },
+        {
+            "MovieId": "26",
+            "posterurl": "https://upload.wikimedia.org/wikipedia/en/9/96/Jai_Ho_%282013_Hindi_film%29_poster.jpg",
+            "averageRating": 0,
+            "releaseDate": "2014-01-24",
+            "year": "2014",
+            "imdbRating": "7.5",
+            "duration": "PT157M",
+            "title": "Jai Ho"
+        },
+        {
+            "MovieId": "7",
+            "posterurl": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSSBjgn6nmJttwcTh0nmdTxJLyomVapLaColnlJZ9dXLjf-Y1tP",
+            "averageRating": 0,
+            "releaseDate": "2019-06-21",
+            "year": "2019",
+            "imdbRating": "7.1",
+            "duration": "PT157M",
+            "title": "Kabir Singh"
+        },
+        {
+            "MovieId": "11",
+            "posterurl": "https://upload.wikimedia.org/wikipedia/en/3/3c/Housefull_4_poster.jpg",
+            "averageRating": 0,
+            "releaseDate": "2019-10-25",
+            "year": "2019",
+            "imdbRating": "7.5",
+            "duration": "PT157M",
+            "title": "Housefull 4"
+        },
+        {
+            "MovieId": "3",
+            "posterurl": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTfuI-5hojvXGrFcACsQU4Gt4txlVuIVkbEgO0C-56M3_TnaMEw",
+            "averageRating": 0,
+            "releaseDate": "1971-03-12",
+            "year": "1971",
+            "imdbRating": "8.9",
+            "duration": "PT157M",
+            "title": "Anand"
+        },
+        {
+            "MovieId": "20",
+            "posterurl": "https://upload.wikimedia.org/wikipedia/en/a/a1/Ajay_Devgan%27s_Shivaay_poster.jpgg",
+            "averageRating": 0,
+            "releaseDate": "2016-10-28",
+            "year": "2016",
+            "imdbRating": "8",
+            "duration": "PT157M",
+            "title": "Shivaay"
+        },
+        {
+            "MovieId": "39",
+            "posterurl": "https://upload.wikimedia.org/wikipedia/en/e/e7/Son_Of_Sardar_poster.jpg",
+            "averageRating": 0,
+            "releaseDate": "2012-11-13",
+            "year": "2012",
+            "imdbRating": "8",
+            "duration": "PT157M",
+            "title": "Son Of Sardaar"
+        },
+        {
+            "MovieId": "45",
+            "posterurl": "https://upload.wikimedia.org/wikipedia/en/8/82/Tees_Maar_Khan_%282010_film%29_poster.jpg",
+            "averageRating": 0,
+            "releaseDate": "2010-11-05",
+            "year": "2010",
+            "imdbRating": "7.5",
+            "duration": "PT157M",
+            "title": "Tees Maar Khan"
+        },
+        {
+            "MovieId": "37",
+            "posterurl": "https://upload.wikimedia.org/wikipedia/en/f/f3/Talaash_poster.jpg",
+            "averageRating": 0,
+            "releaseDate": "2012-11-30",
+            "year": "2012",
+            "imdbRating": "7.5",
+            "duration": "PT157M",
+            "title": "Talaash: The Answer Lies Within"
+        },
+        {
+            "MovieId": "29",
+            "posterurl": "https://upload.wikimedia.org/wikipedia/en/4/46/Gunday_%282013_film%29.jpg",
+            "averageRating": 0,
+            "releaseDate": "2014-02-14",
+            "year": "2014",
+            "imdbRating": "7",
+            "duration": "PT157M",
+            "title": "Gunday"
+        },
+        {
+            "MovieId": "21",
+            "posterurl": "https://upload.wikimedia.org/wikipedia/en/c/c3/PK_poster.jpg",
+            "averageRating": 0,
+            "releaseDate": "2014-12-19",
+            "year": "2014",
+            "imdbRating": "9",
+            "duration": "PT157M",
+            "title": "PK"
+        },
+        {
+            "MovieId": "25",
+            "posterurl": "https://upload.wikimedia.org/wikipedia/en/b/b7/Holiday_-_A_Soldier_Is_Never_Off_Duty_%28poster%29.jpg",
+            "averageRating": 0,
+            "releaseDate": "2014-06-06",
+            "year": "2014",
+            "imdbRating": "8.5",
+            "duration": "PT157M",
+            "title": "Holiday: A Soldier Is Never Off Duty"
+        },
+        {
+            "MovieId": "12",
+            "posterurl": "https://upload.wikimedia.org/wikipedia/en/8/89/Dabangg_3_poster.jpg",
+            "averageRating": 0,
+            "releaseDate": "2019-12-20",
+            "year": "2019",
+            "imdbRating": "7",
+            "duration": "PT157M",
+            "title": "Dabangg 3"
+        },
+        {
+            "MovieId": "17",
+            "posterurl": "https://upload.wikimedia.org/wikipedia/en/a/a4/Akshay_Kumar%27s_Housefull_3.jpg",
+            "averageRating": 0,
+            "releaseDate": "2016-06-03",
+            "year": "2016",
+            "imdbRating": "7.6",
+            "duration": "PT157M",
+            "title": "Housefull 3"
+        },
+        {
+            "MovieId": "10",
+            "posterurl": "https://upload.wikimedia.org/wikipedia/en/b/b7/Mission_Mangal.jpg",
+            "averageRating": 0,
+            "releaseDate": "2019-08-15",
+            "year": "2019",
+            "imdbRating": "8.7",
+            "duration": "PT157M",
+            "title": "Mission Mangal"
+        },
+        {
+            "MovieId": "47",
+            "posterurl": "https://upload.wikimedia.org/wikipedia/en/e/e1/Kites_Official_Poster.jpg",
+            "averageRating": 0,
+            "releaseDate": "2010-05-21",
+            "year": "2010",
+            "imdbRating": "7.5",
+            "duration": "PT157M",
+            "title": "Kites"
+        },
+        {
+            "MovieId": "15",
+            "posterurl": "https://upload.wikimedia.org/wikipedia/en/9/96/Akshay_Kumar%27s-Rustom_poster.jpg",
+            "averageRating": 0,
+            "releaseDate": "2016-08-12",
+            "year": "2016",
+            "imdbRating": "9.5",
+            "duration": "PT157M",
+            "title": "Rustom"
+        },
+        {
+            "MovieId": "42",
+            "posterurl": "https://upload.wikimedia.org/wikipedia/en/1/14/Raajneeti_poster.jpg",
+            "averageRating": 0,
+            "releaseDate": "2010-06-04",
+            "year": "2010",
+            "imdbRating": "7",
+            "duration": "PT157M",
+            "title": "Raajneeti"
+        },
+        {
+            "MovieId": "43",
+            "posterurl": "https://upload.wikimedia.org/wikipedia/en/5/5d/My_Name_Is_Khan_film_poster.jpg",
+            "averageRating": 0,
+            "releaseDate": "2010-04-21",
+            "year": "2010",
+            "imdbRating": "7.5",
+            "duration": "PT157M",
+            "title": "My Name Is Khan"
+        },
+        {
+            "MovieId": "14",
+            "posterurl": "https://upload.wikimedia.org/wikipedia/en/3/33/M.S._Dhoni_-_The_Untold_Story_poster.jpg",
+            "averageRating": 0,
+            "releaseDate": "2016-09-30",
+            "year": "2016",
+            "imdbRating": "8.5",
+            "duration": "PT157M",
+            "title": "M.S. Dhoni: The Untold Story"
+        }
+    ],
+    "Count": 50,
+    "ScannedCount": 50
+}

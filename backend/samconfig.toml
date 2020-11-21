@@ -1,0 +1,12 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "user-stack"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-jjnyp5zm1k09"
+s3_prefix = "user-stack"
+region = "ap-south-1"
+profile = "pratyush-dtu"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+
